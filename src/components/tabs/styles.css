@@ -1,0 +1,46 @@
+.tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-header-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab-header {
+  cursor: pointer;
+  height: 50px;
+  border-top: 1px solid slateblue;
+  border-left: 1px solid slateblue;
+  border-right: 1px solid slateblue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-header.active,
+.tab-header:hover {
+  background-color: darkslategray;
+  color: aliceblue;
+}
+
+.tab-content {
+  border: 1px solid slateblue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 100px;
+  display: none;
+  box-sizing: border-box;
+}
+
+.tab-content.active {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

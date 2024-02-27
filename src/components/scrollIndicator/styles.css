@@ -1,0 +1,15 @@
+.scroll-indicator-container {
+  height: 10px;
+  background-color: rgb(85, 85, 160);
+  border-radius: 5px;
+  position: sticky;
+  top: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+.scroll-indicator {
+  background-color: rgb(72, 212, 179);
+  border-radius: 5px;
+  height: 10px;
+}

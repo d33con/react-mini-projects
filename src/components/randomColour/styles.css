@@ -1,0 +1,15 @@
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+.current-colour {
+  color: #fff;
+  font-size: 24px;
+}
+
+.random-bg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 200px;
+}

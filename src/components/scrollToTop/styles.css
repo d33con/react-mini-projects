@@ -1,0 +1,10 @@
+.scroll-top-button {
+  position: fixed;
+  display: none;
+  bottom: 50px;
+  right: 20px;
+}
+
+.scroll-top-button.show {
+  display: block;
+}

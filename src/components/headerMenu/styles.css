@@ -1,0 +1,31 @@
+.header-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-menu > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+}
+
+.header-menu > ul > li > span {
+  color: darkcyan;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.header-menu > ul > li > span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  margin: 0 15px;
+  border-bottom: 2px solid darkcyan;
+}

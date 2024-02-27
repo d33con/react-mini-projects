@@ -1,0 +1,30 @@
+ul.menu {
+  background-color: cadetblue;
+  padding: 20px;
+  text-align: left;
+}
+
+li.menu-item {
+  list-style-type: none;
+  padding: 5px 0;
+  font-size: 24px;
+}
+
+li.menu-item > a {
+  color: aliceblue;
+}
+
+li.menu-item > a:hover {
+  color: aquamarine;
+}
+
+.submenu-button {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 3px 6px;
+  color: aliceblue;
+}
+
+.submenu-button:hover {
+  color: black;
+}

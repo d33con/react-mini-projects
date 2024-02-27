@@ -1,0 +1,14 @@
+.profile-container {
+  padding: 20px;
+  border: 2px solid cornflowerblue;
+  margin-top: 20px;
+}
+
+.profile-avatar {
+  width: 40px;
+}
+
+input[name="search-github"] {
+  height: 40px;
+  margin-right: 10px;
+}
